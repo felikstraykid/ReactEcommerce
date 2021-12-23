@@ -1,0 +1,319 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav{
+  background-color: rgb(52, 206, 253);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.nav ul li.logo{
+
+  font-size: 50px;
+}
+.search-dropdown{
+  color: blue;
+  height: 3vh;
+  border-radius: 20px;
+  border: none;
+
+}
+.nav ul div.searchBar{
+  padding: 0 25px;
+  display: inline-flex;
+  
+}
+
+.nav ul div.language{
+  display: flex;
+  padding: 0 10px;
+}
+.nav ul .search{
+  display: flex;
+  height: 3vh;
+  
+}
+.nav ul .search input{
+  height: 4.5vh;
+  width: 47vh;
+  color: grey;
+  border-radius: 20px;
+  border: none;
+  padding: 0 20px;
+  font-size: 10px;
+}
+.nav ul .search .search-icon{
+  height: 30px;
+  width: 90px;
+  font-size: 10px;
+  background: orange;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 25px;
+  color: #fff;
+}
+.language  li {
+  padding: 0 5px;
+  color: white;
+}
+.language li select{
+  color: #fff;
+  border: none;
+  background-color: rgb(52, 206, 253);
+}
+.seeAll{
+  color: aqua;
+  text-decoration: none;
+  
+}
+
+.searchBar li select{
+  color: grey;
+  height: 30px;
+  font-size: 10px;
+  border-radius: 20px;
+  border: none;
+}
+.logo{
+  color: white;
+}
+.product-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+div div ::placeholder{
+  margin-left: 10px;
+}
+.card p{
+  margin: 5px 10px;
+  line-height: 0;
+  font-size: 10px;
+  color: grey;
+  opacity: 1;
+ 
+}
+.form-group .form-label{
+  justify-content: space-between;
+}
+
+
+@media only screen and (min-width: 1200px){
+  .div{
+    width: 780px;
+    margin-left: 380px
+  }
+}
+/* This part is a responsive for mobile phone */
+@media only screen and (max-width: 600px){
+      .logo{
+        color: blue;
+        font-size: 20px;
+        position: relative;
+        right: 35%;
+    
+        bottom: 10px;
+       }
+     
+      .div{
+        width: 190px;
+        margin-left: 100px;
+      }
+      .nav{
+        height: 70px;
+      }
+      .nav-link .des{
+        font-size: small;
+      }
+      .nav-link{
+        margin: 0;
+        border-bottom: none;
+      }
+      .nav-link .seeAll{
+        font-size: 10px;
+
+      }
+    
+      .language li select{
+         font-size: 8px;
+         }
+      .searchBar li select{
+         width: 70px;
+         font-size: 7px;
+         height: 20px;
+         position: absolute;
+         right: 5%;
+       }
+      .nav ul .search input{
+        width: 100px;
+        height: 20px;
+        padding: 0 10px;
+        font-size: 7px; 
+    }
+       .nav ul .search .search-icon{
+          font-size: 7px;
+          width: 40px;
+         height: 20px;
+  
+          line-height: 20px;
+    }
+        .nav ul div.language{
+            position: absolute;
+            right: 0;
+             top: 3%;
+             font-size: 10px;
+     }
+      .shopping-user{
+         padding: 0 10px;
+       }
+      .language li {
+         padding: 0 3px;
+       }
+     
+       .searchBar li{
+        position: relative;
+        right: 14%;
+      }
+      .navbar-toggle .nav-toggle{
+          background-color: rgb(219, 215, 215);
+          padding-left: 10px;
+          width: 190px;
+          border-radius: 10px;
+       }
+     .navbar-toggle{
+        position: absolute;
+        right: 0;
+       top: 90%;
+     }
+ 
+      .slider-container .slider-category div img{
+        width: 60%;
+        margin: 5px 10px;
+     }
+       .slider-container .slider-category div p{
+         font-size: 10px;
+         text-align: center;
+         align-items: center;
+          display: flex;
+         justify-content: center;
+        }
+       .slider-category{
+           width: 130px; 
+          margin: 4px 27px; 
+         height: 60px;
+         border-radius: 10px;
+        }
+      .fashion.nav .fashion-container{
+        width: 10px;
+      }
+}
+/* End of mobile phone responsive */
+.caption{
+  color: orange;
+  position: absolute;
+  top: 0;
+  bottom: 90%;
+  left: 10%;
+}
+
+.carousel .thumb{
+  display: none;
+}
+.carousel .thumb{
+  width: 10%;
+}
+.carousel .indicators{
+  color: blue;
+}
+/* This part is a responsive for large tablet */
+@media (min-width: 900px ) and (max-width: 1100px){
+     .nav ul .search input{
+        width: 20vh;
+        height: 30px;
+        }
+        .div{
+          width: 700px;
+          margin-left: 190px;
+        }
+      
+        .slider-container .slider-category div img{
+          width: 60%;
+          margin: 5px 10px;
+       } 
+      .searchBar{
+        margin-top: 20px;
+        }
+}
+@media (min-width: 768px) and (max-width: 890px){
+          .div{
+           width: 700px;
+           
+           margin-left: 60px;
+         } 
+      
+         .nav ul .search input{
+          width: 20vh;
+          height: 30px;
+          }
+          .slider-category{
+            width: 290px; 
+           margin: 10px 35px; 
+          height: 80px;
+          border-radius: 10px;
+         }
+         .slider-container .slider-category div img{
+          width: 60%;
+          margin: 5px 10px;
+
+       } 
+       .slider-container .slider-category div p{
+        font-size: 10px;
+        text-align: center;
+        align-items: center;
+         display: flex;
+        justify-content: center;
+       }
+       
+}
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 10rem));
+  justify-content: center;
+  border-radius: 30px;
+  padding: 0 200px;
+
+}
+.card{
+  overflow: hidden;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+ 
+}
+
+
+.card-body img{
+  border-radius: 40px;
+  height: 200px;
+  width: 130px;
+  object-fit: cover;
+  border-radius: 30px;
+  border: none;
+}
+.star li {
+  list-style-type: none;
+  display: inline-block;
+}
