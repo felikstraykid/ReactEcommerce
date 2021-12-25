@@ -31,6 +31,7 @@ import BuyNow from './components/BuyNow';
 import Footer2 from './components/CopyRight';
 import MyOrder from './components/MyOrder';
 import Carousel1 from './components/Carousel'
+
 function App() {
   return (
     <>
